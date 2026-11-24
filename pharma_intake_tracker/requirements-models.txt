@@ -1,0 +1,7 @@
+# Real local RAG models (Stage 2 bi-encoder, Stage 4 cross-encoder).
+# Install CPU-only torch first to avoid multi-GB CUDA wheels:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# then: pip install -r requirements-models.txt
+# then (one-time, the only step that uses the network): python scripts/download_models.py
+-r requirements.txt
+sentence-transformers>=3.0

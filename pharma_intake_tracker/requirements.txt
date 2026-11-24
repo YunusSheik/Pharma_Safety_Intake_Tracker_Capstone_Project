@@ -1,0 +1,6 @@
+# Core runtime: enough for the app, the deterministic fallback RAG, and the test suite.
+streamlit>=1.39
+pydantic>=2.7
+numpy>=1.26
+pandas>=2.0
+pytest>=8.0
